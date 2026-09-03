@@ -8,6 +8,8 @@ etudiant = {
 # Ajouter "formation": "IA"
 
 print (etudiant["nom"])
+print (etudiant["age"])
+print (etudiant["note"])
 etudiant["note"]=17
 print (etudiant["note"])
 etudiant["formation"]="IA"

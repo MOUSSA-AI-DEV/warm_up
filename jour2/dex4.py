@@ -15,3 +15,11 @@ for key ,vlaue in notes_etudiants.items():
     if vlaue >10:
        note_sup[key]=vlaue
 print(note_sup)
+reussis = 0
+
+for note in notes_etudiants.values():
+    if note >= 10:
+        reussis += 1
+
+# Pourcentage de reaussite 
+pourcentage = (reussis / len(notes_etudiants)) * 100

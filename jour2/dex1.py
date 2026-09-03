@@ -10,5 +10,6 @@ produit["prix"] = 7900
 produit["marque"] = "Lenovo"
 produit["disponible"] = True
 del produit["stock"]
-produit.pop("categorie")
+print(produit)
+produit.pop("nom")
 print(produit)
