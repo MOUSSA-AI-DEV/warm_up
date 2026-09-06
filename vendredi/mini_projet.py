@@ -15,7 +15,7 @@ def chemin(chem):
 
 def calcule_distance(ville1, ville2):
 
-    with open("ville.txt", "r", encoding="utf-8") as file:
+    with open("ville.txt", "r") as file:
 
         x1 = y1 = x2 = y2 = None
 
